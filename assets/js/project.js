@@ -12,7 +12,7 @@ const exp = [{
     "<li>Multiplayer using Photon framework implemented with Oculus Quest.</li>" +
     "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>" +
     "<li>Enviroment set in nature to be relaxing and stress free.</li>",
-  iframe: "<iframe src='https://www.youtube.com/embed/LgWX2sPZQsE/' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
+  iframe: "<iframe src='https://youtu.be/Rc7QrJYl7Ys' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
   iframeComment: "Demo Video"
 },
 ];
