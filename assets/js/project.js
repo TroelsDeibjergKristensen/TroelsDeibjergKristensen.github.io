@@ -13,7 +13,7 @@ const exp = [{
     "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>" +
     "<li>Enviroment set in nature to be relaxing and stress free.</li>",
   iframe: "<iframe src='https://www.youtube.com/embed/Rc7QrJYl7Ys' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
-  iframeComment: "Demo Video"
+  iframeComment: "Video"
 },
 ];
 
@@ -46,7 +46,7 @@ const showCards2 = () => {
             ${desp}
           </ol>
           <div style= 'text-align: center'>
-          <button type="button" id="${Trim(title)+"toggle"}">Demo</button>
+          <button type="button" id="${Trim(title)+"toggle"}">Video</button>
             <div id="${Trim(title)+"content"}">
             ${iframe}
             </div>
