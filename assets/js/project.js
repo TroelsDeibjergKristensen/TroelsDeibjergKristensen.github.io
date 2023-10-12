@@ -3,7 +3,20 @@ AOS.init();
 
 const experienceCards = document.querySelector(".experience-cards");
 
-const exp = [{
+const exp = [
+  {
+    title: "Novozymes VR Training",
+    cardImage: "assets/images/experience-page/novozymes.png",
+    place: "Bachelor Project at University of Southern Denmark",
+    time: "(February- June, 2020)",
+    desp: "<li>Virtual reality prototype developed in Unity for the Oculus Quest.</li>" +
+      "<li>Multiplayer using Photon framework implemented with Oculus Quest.</li>" +
+      "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>" +
+      "<li>Enviroment set in nature to be relaxing and stress free.</li>",
+    iframe: "<iframe src='https://www.youtube.com/embed/jNrqvFr67MA/' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
+    iframeComment: "Demo Video"
+  },
+  {
   title: "Island of Play",
   cardImage: "assets/images/experience-page/sdulogo-uk-sort-feb2019.jpg",
   place: "Bachelor Project at University of Southern Denmark",
@@ -46,8 +59,8 @@ const showCards2 = () => {
             ${desp}
           </ol>
           <div style= 'text-align: center'>
-          <button type="button" id="${Trim(title)+"toggle"}">Video</button>
-            <div id="${Trim(title)+"content"}">
+          <button style="border-radius:20px" type="button" id="${Trim(title)+"toggle"}">Video</button>
+            <div style="margin-top:10px" id="${Trim(title)+"content"}">
             ${iframe}
             </div>
           </div>

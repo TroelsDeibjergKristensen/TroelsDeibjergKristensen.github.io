@@ -4,147 +4,22 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "The Island of Play: Reflections on How to Design Multiuser VR to Promote Social Interaction",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Lasse Juel Larsen, Troels Deibjerg Kristensen, Bo Kampmann Walter & Gunver Majgaard",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "HCII 2022: Virtual, Augmented and Mixed Reality: Design and Development",
+    researchYr: 2022,
     citebox: "popup1",
     image: "assets/images/research-page/inteferenceNetwork.png",
     citation: {
       vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Larsen, L.J., Kristensen, T.D., Walther, B.K., Majgaard, G. (2022). The Island of Play: Reflections on How to Design Multiuser VR to Promote Social Interaction. In: Chen, J.Y.C., Fragomeni, G. (eds) Virtual, Augmented and Mixed Reality: Design and Development. HCII 2022. Lecture Notes in Computer Science, vol 13317. Springer, Cham. https://doi.org/10.1007/978-3-031-05939-1_32",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "This article consists of reflections and considerations concerning a virtual reality design case: The Island of Play. It is a multiuser virtual reality prototype aimed at maintaining and encouraging social relationships between long term hospitalized children and their friends. The motivation behind this design is the dire situation long term hospitalized children often find themselves in. They experience isolation and marginalization due to constraints from hospitalization. A consequence hereof is a limited access to social interaction as well as a reduced opportunity to play with friends from either home or school. The Island of Play was essentially designed to set up a virtual meeting place to stimulate socialization through play. This article sits at the intersection between game design theory and actual design impressions, with a particular focus on how real-world design interweaves with theoretical considerations. The argument that follows is structured over five sections: 1) First, we contemplate the design of the player’s character. 2) Second, we scrutinize the relationship between game objects and playful interactions. 3) Then we move on to consider the design of social experiences, 4) followed by the fourth section where we inspect the value of the magic circle as a design metric. 5) Finally, in the fifth section, we reflect on the importance of weighing the player’s sensation of purpose and skill against interacting with the application. Overall, this design case pivots around design issues and considerations involved in the development of play and game scenarios in a multiuser VR-application aimed at bolstering the social fabric between long term hospitalized children and their friends.",
     absbox: "absPopup1",
-  },
-
-  {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-    authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
-    citation: {
-      vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
-    absbox: "absPopup2",
-  },
-
-  {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
-    absbox: "absPopup3",
-  },
-
-  {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
-    citation: {
-      vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
-  },
-
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
-    citation: {
-      vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
-  },
+  }
 ];
 AOS.init();
 const fillData = () => {
