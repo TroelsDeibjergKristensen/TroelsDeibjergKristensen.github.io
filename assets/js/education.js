@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Fullstack Open",
-    cardImage: "assets/images/education-page/fullstackOpen.PNG",
+    cardImage: "assets/images/education-page/FullstackOpen.PNG",
     moocLink: "https://fullstackopen.com/en/",
   }
 ]
