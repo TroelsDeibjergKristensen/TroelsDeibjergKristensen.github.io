@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
   const exp = [
   {
     title: "Digitalisation Partner",
-    cardImage: "assets/images/experience-page/novo_nordisk.PNG",
+    cardImage:  "assets/images/experience-page/novo_nordisk.PNG",
     place: "Novo Nordisk",
     time: "(Mar, 2023 - Jun, 2023)",
     desp: "<li>Worked as an external consultant and developer on a project to convey stories of Second World War freedom fighters.</li> <li> In charge of architecture on the project and integration into Useeum museum app.</li> <li>Optimized project for minimum app size by texture compression and App Bundles.</li>",
