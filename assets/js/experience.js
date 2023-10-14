@@ -9,7 +9,7 @@ const experiencecards = document.querySelector(".experience-cards");
     cardImage:  "assets/images/experience-page/novo_nordisk.PNG",
     place: "Novo Nordisk",
     time: "(Mar, 2023 - Jun, 2023)",
-    desp: "<li>Worked as an external consultant and developer on a project to convey stories of Second World War freedom fighters.</li> <li> In charge of architecture on the project and integration into Useeum museum app.</li> <li>Optimized project for minimum app size by texture compression and App Bundles.</li>",
+    desp: "<li>VR Development in Unity using C#</li> <li>Stakeholder management and implementation of VR training solutions</li> <li>Agile Development - SCRUM</li>",
   },
   {
     title: "VR Training Developer - Novozymes",
