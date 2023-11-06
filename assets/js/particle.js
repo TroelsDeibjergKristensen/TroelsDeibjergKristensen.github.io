@@ -84,11 +84,11 @@ particlesJS("particles-js", {
     },
     modes: {
       repulse: {
-        distance: 70,
+        distance: 100,
         duration: 0.4,
       },
       push: {
-        particles_nb: 4,
+        particles_nb: 8,
       },
     },
   },
