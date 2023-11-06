@@ -9,14 +9,14 @@ const experiencecards = document.querySelector(".experience-cards");
     cardImage:  "assets/images/experience-page/novo_nordisk.PNG",
     place: "Novo Nordisk",
     time: "(Mar, 2023 - Jun, 2023)",
-    desp: "<li>VR Development in Unity using C#</li> <li>Stakeholder management and implementation of VR training solutions</li> <li>Agile Development - SCRUM</li>",
+    desp: "<li>Developed VR training tools in Unity using C#.</li> <li>Managed stakeholders and facilitated implementation of VR training solutions.</li> <li>Agile Development - SCRUM</li>",
   },
   {
     title: "VR Training Developer - Novozymes",
     cardImage: "assets/images/experience-page/novozymes.png",
     place: "Novozymes",
     time: "(Sep, 2022 - Jan, 2023)",
-    desp: "<li>Worked as an external consultant and developer on a project to convey stories of Second World War freedom fighters.</li> <li> In charge of architecture on the project and integration into Useeum museum app.</li> <li>Optimized project for minimum app size by texture compression and App Bundles.</li>",
+    desp: "<li>Designed scalable software architecture and developed VR training systems using C# and Unity .</li> <li> In charge of architecture on the project and integration into Useeum museum app.</li> <li>Collaborated with Novozymes to integrate VR into Industry 4.0 initiatives.</li>",
   },
   {
     title: "External Consultant and Developer",
@@ -30,7 +30,7 @@ const experiencecards = document.querySelector(".experience-cards");
     cardImage: "assets/images/experience-page/sdulogo-uk-sort-feb2019.jpg",
     place: "University of Southern Denmark",
     time: "(Sep, 2021 - January, 2022)",
-    desp: "<li>As instructor i helped the students with game programming; specifically databases and multiplayer functions in Unity.</li> ",
+    desp: "<li>Assisted in teaching Unity networking and NoSQL database integration.</li> <li>Supported students in their projects and facilitated knowledge growth </li> ",
   },
   {
     title: "Release and Port of VR Festlab",
@@ -44,7 +44,7 @@ const experiencecards = document.querySelector(".experience-cards");
     cardImage: "assets/images/experience-page/sdulogo-uk-sort-feb2019.jpg",
     place: "University of Southern Denmark",
     time: "(Sep, 2021 - January, 2022)",
-    desp: "<li>Som instruktor i spilprogrammering hjalp de studerende med at udvikle database og networking funktioner i Unity.</li> ",
+    desp: "<li>Teaching web development concepts .</li> ",
   }
 ];
 
