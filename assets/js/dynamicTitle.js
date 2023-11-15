@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
-  let attentionMessage = "Come back";
+  let attentionMessage = "TDK Portfolio";
 
   document.addEventListener("visibilitychange", function (e) {
     let isPageActive = !document.hidden;
