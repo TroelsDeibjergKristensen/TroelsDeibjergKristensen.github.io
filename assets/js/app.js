@@ -137,7 +137,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/vPrB_LL80" method="POST" accept-charset="UTF-8" >
+                <form class="ajaxForm" name="form1" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
@@ -204,6 +204,24 @@ $(document).ready(function () {
       }
     }
   });
+
+  $(".ajaxForm").submit(function(e){
+    e.preventDefault();
+    var href = $(this).attr("action");
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: "https://formcarry.com/s/vPrB_LL80",
+        data: $(this).serialize(),
+        success: function(response){
+            if(response.status == "success"){
+                alert("We received your submission, thank you!");
+            }else{
+                alert("An error occured: " + response.message);
+            }
+        }
+    });
+});
 });
 
 //function to scroll to top
@@ -388,7 +406,22 @@ $(function submitAnimation() {
       }, 1500);
       // Wait for 2.2 seconds so that the send button animation can be fully played before submitting the form
       setTimeout(() => {
-        document.querySelector('form').submit();
+        $("form").submit(event=>{
+          event.preventDefault()
+          $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "https://formcarry.com/s/vPrB_LL80",
+            data: $(this).serialize(),
+            success: function(response){
+                if(response.status == "success"){
+                    alert("We received your submission, thank you!");
+                }else{
+                    alert("An error occured: " + response.message);
+                }
+            }
+        });
+        })
       }, 2200);
     }
   });

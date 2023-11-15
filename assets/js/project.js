@@ -9,10 +9,9 @@ const exp = [
     cardImage: "assets/images/experience-page/novozymes.png",
     place: "Bachelor Project at University of Southern Denmark",
     time: "(February- June, 2020)",
-    desp: "<li>Virtual reality prototype developed in Unity for the Oculus Quest.</li>" +
-      "<li>Multiplayer using Photon framework implemented with Oculus Quest.</li>" +
-      "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>" +
-      "<li>Enviroment set in nature to be relaxing and stress free.</li>",
+    desp: "<li>Virtual reality prototype developed in Unity for the Oculus Quest 2.</li>" +
+      "<li>Explored the application of Virtual Reality (VR) in optimizing biomanufacturing processes.</li>" +
+      "<li>Standalone training course designed to lower cognitive strain and promote effective learning outcomes.</li>",
     iframe: "<iframe src='https://www.youtube.com/embed/jNrqvFr67MA/' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
     iframeComment: "Demo Video"
   },
@@ -23,8 +22,7 @@ const exp = [
   time: "(February- June, 2020)",
   desp: "<li>Virtual reality prototype developed in Unity for the Oculus Quest.</li>" +
     "<li>Multiplayer using Photon framework implemented with Oculus Quest.</li>" +
-    "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>" +
-    "<li>Enviroment set in nature to be relaxing and stress free.</li>",
+    "<li>Designed to enable long term hospitalized children to play with their friends and family in a more immersive way than regular games.</li>",
   iframe: "<iframe src='https://www.youtube.com/embed/Rc7QrJYl7Ys' width='640' height='380' frameborder='0' scrolling='no' allowfullscreen></iframe>",
   iframeComment: "Video"
 },
